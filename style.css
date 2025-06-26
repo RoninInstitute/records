@@ -29,6 +29,12 @@ body::before {
      pointer-events: none;
 }
 
+p { text-align: left;}
+
 a.github-button, .github-link {
   display: none !important;
+}
+
+.markdown-body h1:first-of-type {
+  display: none;
 }

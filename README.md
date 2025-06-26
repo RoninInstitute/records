@@ -2,7 +2,7 @@
 
 # RIIS 2.0 Documents
 
-Contains static, versioned copies of publicly available documents for the Ronin Institute for Independent Scholarship 2.0 (RIIS 2.0).
+Contains static, versioned copies of publicly available documents for the [Ronin Institute for Independent Scholarship 2.0](https://ronininstitute.org) (RIIS 2.0).
 
 [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/RoninInstitute/docs/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/RoninInstitute/docs)
 
