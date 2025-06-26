@@ -28,3 +28,7 @@ body::before {
      z-index: 0;
      pointer-events: none;
 }
+
+a.github-button, .github-link {
+  display: none !important;
+}
