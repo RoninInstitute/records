@@ -25,5 +25,14 @@ Contains static, versioned copies of publicly available documents for the [Ronin
  * [privacy-policy.pdf](./privacy-policy.pdf)/[.docx](./privacy-policy.docx)
 
 
-
-
+<footer>
+  <p style="font-size: 0.75rem; color: #6c757d;">Text &copy; 2025 RIIS 2.0 &#8226; Background image by 
+    <a href="https://commons.wikimedia.org/wiki/File:AsarakaenPhoenix.png"
+   title="SPRIET1, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0, via Wikimedia Commons"
+   target="_blank"
+   rel="noopener noreferrer"
+   style="color: #6c757d; text-decoration: underline;">
+  SPRIET1, CC BY-SA 4.0, via Wikimedia Commons
+    </a>
+  </p>
+</footer>
