@@ -26,7 +26,7 @@ Contains static, versioned copies of publicly available documents for the [Ronin
 
 
 <footer>
-  <p style="margin-top: 3rem; font-size: 0.75rem; text-align: center; color: #6c757d;">Text &copy; 2025 RIIS 2.0 &#8226; Background image by 
+  <p style="margin-top: 5rem; font-size: 0.75rem; text-align: center; color: #6c757d;">Background image by 
     <a href="https://commons.wikimedia.org/wiki/File:AsarakaenPhoenix.png"
    title="SPRIET1, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0, via Wikimedia Commons"
    target="_blank"
