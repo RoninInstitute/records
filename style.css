@@ -16,7 +16,7 @@
 
 body::before {
      content: "";
-     background: url('https://upload.wikimedia.org/wikipedia/commons/1/1e/AsarakaenPhoenix.png') no-repeat center center;
+     background: url('https://ronininstitute.org/riis-2.0-temporary-logo.png') no-repeat center center;
      background-size: contain;
      opacity: 0.04;
      position: absolute;

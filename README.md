@@ -29,13 +29,7 @@ Contains static, versioned copies of publicly available documents for the [Ronin
  * [privacy-policy.pdf](./privacy-policy.pdf)
 
 <footer>
-  <p style="margin-top: 5rem; font-size: 0.75rem; text-align: center; color: #6c757d;">Background image by 
-    <a href="https://commons.wikimedia.org/wiki/File:AsarakaenPhoenix.png"
-   title="SPRIET1, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0, via Wikimedia Commons"
-   target="_blank"
-   rel="noopener noreferrer"
-   style="color: #6c757d; text-decoration: underline;">
-  SPRIET1, CC BY-SA 4.0, via Wikimedia Commons
-    </a>
-  </p>
+    <p style="font-size: 0.75rem; color: #6c757d;">Text &copy; 2025 RIIS 2.0
+      &#8226; RIIS 2.0 is a 501(c)(3) California nonprofit, incorporated in 2025.
+    </p>
 </footer>
