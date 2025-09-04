@@ -2,7 +2,7 @@
 
 # RIIS 2.0 Documents
 
-Contains static, versioned copies of publicly available documents for the [Ronin Institute for Independent Scholarship 2.0](https://ronininstitute.org) (RIIS 2.0).
+Contains publicly available documents for the [Ronin Institute for Independent Scholarship 2.0](https://ronininstitute.org) (RIIS 2.0).
 
 [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/RoninInstitute/docs/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/RoninInstitute/docs)
 
@@ -29,7 +29,6 @@ Contains static, versioned copies of publicly available documents for the [Ronin
  * [privacy-policy.pdf](./privacy-policy.pdf)
 
 <footer>
-    <p style="font-size: 0.75rem; color: #6c757d;">Text &copy; 2025 RIIS 2.0
-      &#8226; RIIS 2.0 is a 501(c)(3) California nonprofit, incorporated in 2025.
+    <p style="text-align: center; font-size: 0.75rem; color: #6c757d;">RIIS 2.0 is a 501(c)(3) California nonprofit, incorporated in 2025.
     </p>
 </footer>
