@@ -8,22 +8,25 @@ Contains static, versioned copies of publicly available documents for the [Ronin
 
 ## Official Public RIIS 2.0 Documents
 
- * Articles of Incorporation: [pdf](./Articles_of_Incorporation_RIIS_2-0_California_SOS_2025-04-24.pdf)
+ * [Articles of Incorporation](./Articles_of_Incorporation_RIIS_2-0_California_SOS_2025-04-24.pdf)
 
- * Certified Copy of Statement of Information for CA Nonprofit Corporation: [pdf](./SI-100-Certified-Copy-Statement-of-Information-California-SOS-4-24-2025.pdf) 
+ * [Certified Copy of Statement of Information for CA Nonprofit Corporation:](./SI-100-Certified-Copy-Statement-of-Information-California-SOS-4-24-2025.pdf) 
  
- * EIN IRS: [pdf](./EIN-Number-IRS_RIIS-2-0-4-24-2025.pdf)
+ * [EIN IRS](./EIN-Number-IRS_RIIS-2-0-4-24-2025.pdf)
   
- * RIIS 2.0 Bylaws: [.pdf](./bylaws.pdf)/[.docx](./bylaws.docx)
+ * [RIIS 2.0 Bylaws](./bylaws.pdf)
 
 ### Approved policies
 
- * [belonging-policy.pdf](./belonging-policy.pdf)/[.docx](./belonging-policy.docx)
+ * [belonging-policy.pdf](./belonging-policy.pdf)
  
- * [code-of-conduct.pdf](./code-of-conduct.pdf)/[.docx](./code-of-conduct.docx)
+ * [code-of-conduct.pdf](./code-of-conduct.pdf)
  
- * [privacy-policy.pdf](./privacy-policy.pdf)/[.docx](./privacy-policy.docx)
-
+ * [conflict-resolution-policy.pdf](./conflict-resolution-policy.pdf)
+ 
+ * [terms-of-service.pdf](./terms-of-service.pdf)
+ 
+ * [privacy-policy.pdf](./privacy-policy.pdf)
 
 <footer>
   <p style="margin-top: 5rem; font-size: 0.75rem; text-align: center; color: #6c757d;">Background image by 

@@ -34,4 +34,10 @@ preston track https://docs.google.com/document/d/1HovWX8xA7-lXDK4CmQgMyuefmFzc6Q
 
 create_alias "privacy-policy"
 
+preston track https://docs.google.com/document/d/1fcjg533qwIQx8l2N_efXAIS0BvR3IPnSnjIIcahf3p4/edit?tab=t.0
 
+create_alias "conflict-resolution-policy"
+
+preston track https://docs.google.com/document/d/1dCYh2SWF7dSf_Xd3h4aLJ6QYqoz_yc90uJevttwfxZ4/edit?tab=t.0
+
+create_alias "terms-of-service"
