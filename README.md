@@ -4,7 +4,7 @@
 
 Contains publicly available documents for the [Ronin Institute for Independent Scholarship 2.0](https://ronininstitute.org) (RIIS 2.0).
 
-[![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/RoninInstitute/docs/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/RoninInstitute/docs)
+[![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/RoninInstitute/records/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/RoninInstitute/records)
 
 ## Official Public RIIS 2.0 Documents
 
