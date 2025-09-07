@@ -18,15 +18,15 @@ Contains publicly available documents for the [Ronin Institute for Independent S
 
 ### Approved policies
 
- * [belonging-policy.pdf](./belonging-policy.pdf)
+ * [Belonging Policy](./belonging-policy.pdf)
  
- * [code-of-conduct.pdf](./code-of-conduct.pdf)
+ * [Code of Conduct](./code-of-conduct.pdf)
  
- * [conflict-resolution-policy.pdf](./conflict-resolution-policy.pdf)
+ * [Conflict Resolution Policy](./conflict-resolution-policy.pdf)
  
- * [terms-of-service.pdf](./terms-of-service.pdf)
+ * [Terms of Service](./terms-of-service.pdf)
  
- * [privacy-policy.pdf](./privacy-policy.pdf)
+ * [Privacy Policy](./privacy-policy.pdf)
 
 <footer>
     <p style="text-align: center; font-size: 0.75rem; color: #6c757d;">RIIS 2.0 is a 501(c)(3) California nonprofit, incorporated in 2025.
