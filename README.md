@@ -28,7 +28,7 @@ Contains publicly available documents for the [Ronin Institute for Independent S
  
  * [Privacy Policy](./privacy-policy.pdf)
  
- * [Conflict of Interest Policy[(./conflict-of-interest-policy.pdf)
+ * [Conflict of Interest Policy](./conflict-of-interest-policy.pdf)
 
  * [Financial Conflict of Interest Policy](./financial-conflict-of-interest-policy.pdf)
 
