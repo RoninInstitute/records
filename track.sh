@@ -41,3 +41,15 @@ create_alias "conflict-resolution-policy"
 preston track https://docs.google.com/document/d/1dCYh2SWF7dSf_Xd3h4aLJ6QYqoz_yc90uJevttwfxZ4/edit?tab=t.0
 
 create_alias "terms-of-service"
+
+preston track https://docs.google.com/document/d/1KGLnnWGJqfsJpsnd1hKfhSHh-F4mN6atBWYWO2nT1FM/edit?tab=t.0
+
+create_alias "confidentiality-policy"
+
+preston track https://docs.google.com/document/d/1HS4MZ0EjHyT6rwWUVOBffT_BIfTZtIYea335tjga3AU/edit?tab=t.0#heading=h.s1rgmqu3u84a
+
+create_alias "financial-conflict-of-interest-policy"
+
+preston track https://docs.google.com/document/d/1xautEfBuNYWymNdLQtE1ae4MgfoY94JRBzqd1jNTPf4/edit?tab=t.0#heading=h.4bvk7pj
+
+create_alias "conflict-of-interest-policy"
