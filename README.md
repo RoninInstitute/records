@@ -16,7 +16,7 @@ Contains publicly available documents for the [Ronin Institute for Independent S
   
  * [RIIS 2.0 Bylaws](./bylaws.pdf)
 
-### Approved policies
+### Policies for Fellows
 
  * [Belonging Policy](./belonging-policy.pdf)
  
