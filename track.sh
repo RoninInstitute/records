@@ -8,36 +8,25 @@
 # [2] Elliott M.J., Poelen, J.H. & Fortes, J.A.B. (2023) Signing data citations enables data verification and citation persistence. Sci Data. https://doi.org/10.1038/s41597-023-02230-y hash://sha256/f849c870565f608899f183ca261365dce9c9f1c5441b1c779e0db49df9c2a19d
 #
 
+set -x
+
 create_alias() {
   local alias_name="$1"
   preston head | preston cat | grep hasVersion | grep docx | head -n1 | preston cat > "${alias_name}.docx"
   preston head | preston cat | grep hasVersion | grep pdf | head -n1 | preston cat > "${alias_name}.pdf"
 }
 
+track_doc() {
+  echo $0 $1 $2
+  preston track "https://docs.google.com/document/d/$1"
+
+  create_alias "$2"
+}
+
 # official docs
 
 # by-laws, policies
-
-preston track https://docs.google.com/document/d/1KY8E_xia5vTVfBBLVGmcUW2ncPZi0btc8YHty0Pm8E4/edit
-
-create_alias "bylaws"
-
-preston track https://docs.google.com/document/d/14sqIUuw2i7QDQMOGqDM98JRRL_SMYP2S-ePgOYxlwfw/edit?tab=t.0
-
-create_alias "belonging-policy"
-
-preston track https://docs.google.com/document/d/1m9NEDv6L_z1GDQAKjrXdoQNh30goIeBqdVJNZ3yFLww/edit?tab=t.0
-
-create_alias "code-of-conduct"
-
-preston track https://docs.google.com/document/d/1HovWX8xA7-lXDK4CmQgMyuefmFzc6QiuoRrjGiWynNI/edit?tab=t.0
-
-create_alias "privacy-policy"
-
-preston track https://docs.google.com/document/d/1fcjg533qwIQx8l2N_efXAIS0BvR3IPnSnjIIcahf3p4/edit?tab=t.0
-
-create_alias "conflict-resolution-policy"
-
-preston track https://docs.google.com/document/d/1dCYh2SWF7dSf_Xd3h4aLJ6QYqoz_yc90uJevttwfxZ4/edit?tab=t.0
-
-create_alias "terms-of-service"
+cat _data/docs.csv \
+ | tail -n+2 \
+ | tr ',' ' '\
+ | { while read -r doc; do track_doc $doc; done }
