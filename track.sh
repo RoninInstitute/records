@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# tracks Reframe Ronin documents versions using Preston [1,2]
+# tracks RIIS 2.0 documents versions using Preston [1,2]
 #
 #
 # [1] Elliott M.J., Poelen J.H., Fortes J.A.B. (2020). Toward Reliable Biodiversity Dataset References. Ecological Informatics. https://doi.org/10.1016/j.ecoinf.2020.101132 hash://sha256/136c3c1808bcf463bb04b11622bb2e7b5fba28f5be1fc258c5ea55b3b84f482c
@@ -10,12 +10,14 @@
 
 set -x
 
+# create the document aliases
 create_alias() {
   local alias_name="$1"
   preston head | preston cat | grep hasVersion | grep docx | head -n1 | preston cat > "${alias_name}.docx"
   preston head | preston cat | grep hasVersion | grep pdf | head -n1 | preston cat > "${alias_name}.pdf"
 }
 
+# retrieves documents and associated alias
 track_doc() {
   echo $0 $1 $2
   preston track "https://docs.google.com/document/d/$1"
@@ -23,9 +25,8 @@ track_doc() {
   create_alias "$2"
 }
 
-# official docs
-
-# by-laws, policies
+# generate links to official docs: by-laws, policies
+# pull mapping from a CSV file with "Google ID, alias" 
 cat _data/docs.csv \
  | tail -n+2 \
  | tr ',' ' '\
