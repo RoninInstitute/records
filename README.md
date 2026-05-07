@@ -14,7 +14,7 @@ Contains publicly available documents for the [Ronin Institute for Independent S
  
  * [EIN IRS](./EIN-Number-IRS_RIIS-2-0-4-24-2025.pdf)
   
- * [RIIS 2.0 Bylaws](./bylaws.pdf)
+ * [RIIS 2.0 Bylaws](./bylaws.pdf) [Amended May 2026]
 
 ### Policies for Fellows
 
