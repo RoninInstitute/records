@@ -12,22 +12,59 @@ set -x
 
 # create the document aliases
 create_alias() {
-  local alias_name="$1"
-  preston head | preston cat | grep hasVersion | grep docx | head -n1 | preston cat > "${alias_name}.docx"
-  preston head | preston cat | grep hasVersion | grep pdf | head -n1 | preston cat > "${alias_name}.pdf"
+    local alias_name="$1"
+
+     if [ "$type" = "gdoc" ]; then
+	 preston head | preston cat | grep hasVersion | grep docx | head -n1 | preston cat > "${alias_name}.docx"
+	 preston head | preston cat | grep hasVersion | grep pdf | head -n1 | preston cat > "${alias_name}.pdf"
+	 return
+     fi
+     if [ "$type" = "pdf" ]; then
+	 # file export doesn't contain file type like 'pdf', so skip grep
+	 preston head | preston cat | grep hasVersion | head -n1 | preston cat > "${alias_name}.pdf"
+	 return
+     fi
+}
+
+build_url() {
+  local id="$1"
+  local type="$2"
+
+  case "$type" in
+    gdoc)
+      echo "https://docs.google.com/document/d/${id}/export?format=pdf"
+      ;;
+    pdf)
+      echo "https://drive.google.com/uc?export=download&id=${id}"
+      ;;
+    *)
+      echo "UNKNOWN_TYPE:$type" >&2
+      return 1
+      ;;
+  esac
 }
 
 # retrieves documents and associated alias
 track_doc() {
-  echo $0 $1 $2
-  preston track "https://docs.google.com/document/d/$1"
+  local id="$1"
+  local name="$2"
+  local type="$3"
 
-  create_alias "$2"
+  echo "tracking: $id $name $type"
+  url=$(build_url "$id" "$type") || return 1
+  echo "url: $url"
+
+  preston track "$url"
+  create_alias "$name"    
 }
 
 # generate links to official docs: by-laws, policies
-# pull mapping from a CSV file with "Google ID, alias" 
-cat _data/docs.csv \
- | tail -n+2 \
- | tr ',' ' '\
- | { while read -r doc; do track_doc $doc; done }
+# pull mapping from a CSV file with "Google ID,alias,type"
+tail -n +2 _data/docs.csv \
+| while IFS=, read -r id name type; do
+    track_doc "$id" "$name" "$type"
+  done
+# cat _data/docs.csv \
+#  | tail -n+2 \
+#  | tr ',' ' '\
+#  | { while read -r doc; do track_doc $doc; done }
