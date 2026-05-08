@@ -32,7 +32,7 @@ build_url() {
 
   case "$type" in
     gdoc)
-      echo "https://docs.google.com/document/d/${id}/export?format=pdf"
+      echo "https://docs.google.com/document/d/${id}"
       ;;
     pdf)
       echo "https://drive.google.com/uc?export=download&id=${id}"
